@@ -5,7 +5,7 @@ class String
   def sentence?
     if self.sentence?.end_wth?(".")
     else 
-      return
+      puts
   end
 
   def question?
