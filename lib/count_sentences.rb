@@ -1,11 +1,10 @@
 require 'pry'
 
 class String
+  attr_accessor :sentence
 
   def sentence?
     if self.sentence?.end_wth?(".")
-  end
-   sentence?
   end
 
   def question?
