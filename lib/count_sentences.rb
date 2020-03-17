@@ -6,6 +6,7 @@ class String
     sentence? = sentence
       if sentence.end_with?(".")
         self.sentence?
+      end
   end
 
   def question?
