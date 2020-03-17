@@ -4,7 +4,7 @@ class String
 
   def sentence?
     if self.sentence?.end_wth?(".")
-      return
+      return sentence?
     else 
       puts
   end
