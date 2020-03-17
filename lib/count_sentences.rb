@@ -6,8 +6,6 @@ class String
     sentence? = sentence
       if sentence.end_with?(period)
         self.sentence?
-      else
-      end
   end
 
   def question?
